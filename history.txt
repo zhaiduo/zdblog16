@@ -1,0 +1,12 @@
+
+ 5266  hexo init zdblog16
+ 5267* cd nunjucks
+ ...
+ 5273* git config -e
+ ...
+ 5278  cd ../zdblog16
+ 5279  npm install hexo-migrator-wordpress --save
+ 5281  hexo migrate wordpress blog.wordpress.2016-02-14.xml
+ 5285  npm install hexo-deployer-git --save
+ 5286  hexo deploy
+
